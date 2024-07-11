@@ -23,7 +23,7 @@ const Calculator = () => {
   return (
     <div className="calculator">
       <header className="calculator-header">
-        <h1>Mortgage Calculator</h1>
+        <h1>See Your Results</h1>
         <div className="calculator-form">
           <div>
             <label>Principal ($):</label>

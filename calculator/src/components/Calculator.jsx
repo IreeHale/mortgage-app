@@ -26,7 +26,7 @@ const Calculator = () => {
         <h1>See Your Results</h1>
         <div className="calculator-form">
           <div>
-            <label>Principal ($):</label>
+            <label>Principal:</label>
             <input
               type="number"
               value={principal}
@@ -34,7 +34,7 @@ const Calculator = () => {
             />
           </div>
           <div>
-            <label>Annual Interest Rate (%):</label>
+            <label>Annual Interest Rate:</label>
             <input
               type="number"
               value={interestRate}
@@ -49,7 +49,7 @@ const Calculator = () => {
               onChange={(e) => setYears(e.target.value)}
             />
           </div>
-          <button onClick={calculateMortgage}>Calculate</button>
+          <button onClick={calculateMortgage}>See Your Results</button>
         </div>
         {monthlyPayment !== null && (
           <div className="result">

@@ -30,12 +30,18 @@ body {
 
 .landing-header p {
   margin: 10px 0;
+  font-weight: bold;
 }
 
 .landing-header button {
   padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2541b2;
+  color:white;
   font-size: 16px;
   cursor: pointer;
+  font-weight: bold;
   margin-top: 20px;
 }
 
@@ -66,6 +72,7 @@ body {
 .calculator-form label {
   display: block;
   margin-bottom: 5px;
+  font-weight: bold;
 }
 
 .calculator-form input {
